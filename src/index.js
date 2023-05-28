@@ -11,3 +11,5 @@ document.querySelectorAll('.add-to-cart-btn').forEach(item => {
         alert("Ietm was added to the card")
     });
 });
+
+document.getElementById('copyright').innerHTML = "Coopyright " + new Date().getFullYear();
